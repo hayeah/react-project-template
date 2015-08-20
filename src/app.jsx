@@ -1,6 +1,6 @@
 /// <reference path="./types.d.ts" />
 
-import React from "react";
+import React from "react/addons";
 import {TransitionSpring,Spring,utils as RMutils} from "react-motion";
 
 const {reorderKeys} = RMutils;
@@ -32,6 +32,9 @@ function isAlphaNumeric(keyCode) {
 const app = (
   <div className="container">
     <Demo/>
+    <div className='colophon'>
+      made by whoami
+    </div>
   </div>
 );
 

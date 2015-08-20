@@ -9,6 +9,10 @@ body {
    color: #4D4F7D;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   color: #4D4F7D;
   text-decoration: underline;
@@ -31,4 +35,18 @@ a:hover {
   bottom: 0;
 
   background-color: #000445;
+}
+
+.colophon {
+  font-size: 14px;
+}
+
+.colophon a {
+  font-size: 14px;
+  margin-right: 0.5em;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  user-select: none;
 }
